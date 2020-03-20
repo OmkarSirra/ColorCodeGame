@@ -2,4 +2,4 @@ FROM tomcat:alpine
 
 RUN ["rm", "-fr", "/usr/local/tomcat/webapps/ROOT"]
 EXPOSE 8080
-COPY ./target/ccgame-sb-maven-0.0.1.war /usr/local/tomcat/ccgame-sb-maven-0.0.1.war
+COPY ./ccgame-sb-maven-0.0.1.war /usr/local/tomcat/ccgame-sb-maven-0.0.1.war
